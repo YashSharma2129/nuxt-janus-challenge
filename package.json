@@ -1,0 +1,30 @@
+{
+    "name": "nuxt-janus-challenge",
+    "version": "1.0.0",
+    "description": "Nuxt4 + Janus WebRTC VideoRoom & Streaming Demo",
+    "private": true,
+    "scripts": {
+        "build": "nuxt build",
+        "dev": "nuxt dev",
+        "generate": "nuxt generate",
+        "preview": "nuxt preview",
+        "postinstall": "nuxt prepare"
+    },
+    "devDependencies": {
+        "@nuxt/devtools": "^1.0.8",
+        "@nuxt/ui-pro": "^1.0.0",
+        "nuxt": "^3.8.4",
+        "typescript": "^5.3.3"
+    },
+    "dependencies": {
+        "@headlessui/vue": "^1.7.16",
+        "@heroicons/vue": "^2.0.18",
+        "@nuxt/ui": "^2.11.1",
+        "@nuxtjs/tailwindcss": "^6.8.4",
+        "h3": "^1.8.2",
+        "typed_janus_js": "^1.1.0"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    }
+}
